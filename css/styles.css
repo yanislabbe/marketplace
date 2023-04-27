@@ -1,0 +1,85 @@
+/* Style de la page d'accueil */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .featured-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style de la page de détails d'un article */
+  #item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #item img {
+    width: 40%;
+  }
+  
+  #item-info {
+    width: 50%;
+  }
+  
+  /* Style du formulaire de connexion */
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #login-form input[type="text"],
+  #login-form input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #login-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style du formulaire d'inscription */
+  #register-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #register-form input[type="text"],
+  #register-form input[type="password"],
+  #register-form input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #register-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
